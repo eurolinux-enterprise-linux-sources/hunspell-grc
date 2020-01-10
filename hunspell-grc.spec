@@ -1,7 +1,7 @@
 Name: hunspell-grc
 Summary: Ancient Greek hunspell dictionaries
 Version: 2.1.5
-Release: 6%{?dist}
+Release: 7%{?dist}
 Group: Applications/Text
 Source: http://extensions.services.openoffice.org/e-files/2313/1/grc.oxt
 URL: http://www.himeros.eu/
@@ -35,6 +35,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/myspell/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 2.1.5-7
+- Mass rebuild 2013-12-27
+
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 2.1.5-6
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
